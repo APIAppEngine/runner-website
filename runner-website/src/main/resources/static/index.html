@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+    	
+        <!-- Html Page Specific -->        
+        <meta charset="utf-8">
+        <title>APIAppEngine Project</title>
+        <meta name="description" content="A Digital Asset Manager (DAM) for your family.">
+        <meta name="author" content="mike nimer">
+        
+        <!-- Mobile Specific -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+        
+        <!-- CSS -->
+        <link rel="stylesheet" href="./css/style.css" type="text/css"/>
+        <link rel="stylesheet" href="css/font-awesome.css" type="text/css"/>
+        <link rel="stylesheet" href="./css/jquery.fancybox.css" type="text/css"/>
+        <link rel="stylesheet" href="./css/jquery.ketchup.css" type="text/css"/>
+        
+        <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        
+        <!-- JavaScript -->
+        <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+        <script type="text/javascript" src="js/jquery.fancybox-1.2.1.pack.js"></script>
+        <script type="text/javascript" src="./js/jquery.carouFredSel-6.2.0.js"></script>
+        <script src="./js/custom.js"></script>
+        <script src="./js/sliders_setup.js"></script>
+        <script src="./js/jquery.ketchup.all.min.js"></script>
+        
+        <!-- Placeholder script for non-supported browsers by Mathias -->
+        <script src="./js/jquery.placeholder.js"></script>
+        
+        <!-- Favicons -->
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+        
+    </head>
+    <body>
+        
+        <div id="wrap">
+        
+ <!-- HEADER SOCIAL BEGIN -->           
+            
+            <header id="header_with_social" class="header">
+                <div class="center">
+                    <a href="#" class="logo" title="FamilyDAM">API App Engine</a>
+                    <p class="slogan">APIs Powering Applications</p>
+                    <!-- Social icons -->
+                    <div >
+                        <ul>
+                            <!--
+                            <li><a href="https://plus.google.com/" target="_blank" title="Google+" class="fa fa-google-plus"></a></li>
+                            <li><a href="https://www.facebook.com/" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
+                            -->
+                            <li><a href="https://twitter.com/apiappengine" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+            
+<!-- HEADER SOCIAL END --> 
+<!-- SLIDER DOWNLOAD BEGIN -->
+
+            <section id="download_slider_box">
+                <div class="center">
+                    <div class="download">
+                        <h3>Code Available on GitHub</h3>
+                        <a href="dist/FamilyDam-1.0-BETA.zip" class="btn" style="width: 100%">Fork Now</a><br/><br/>
+                        <a href="dist/FamilyDam-1.0-BETA.zip" class="btn" style="width: 100%">Download Build</a><br/><br/>
+                        <h2></h2>
+                        <h3>* Project is still in active development, use with caution</h3>
+
+                    </div>
+                    <div class="download_slider_box">
+                        <div id="download_slider">
+
+                            <div class="slide" id="download3">
+                                <!-- 3rd download slider image change here -->
+                                <span>APIs Powering<br/>Modern Web Applications</span>
+                            </div>
+
+                        </div>
+                        <div id="pager3" class="pager"></div>
+                    </div>
+                </div>
+            </section>
+
+<!-- SLIDER DOWNLOAD END -->
+<!-- BENEFITS BLOCK BEGIN -->
+
+            <section id="benefits" class="box">
+                <div class="center">
+                    <h2>Features</h2>
+                    <div class="benefits_box">
+                    
+                    	<!-- Benefit-->
+                        <div class="benefit">
+                            <span class="fa fa-desktop"></span>
+                            <h3>Image APIs</h3>
+                            <p>TBD</p>
+                        </div>
+
+                        <!-- Benefit-->
+                        <div class="benefit">
+                            <span class="fa fa-desktop"></span>
+                            <h3>PDF APIs</h3>
+                            <p>Various APIs to generate and work with existing PDF files, using the Adobe Pdf libraries</p>
+                        </div>
+
+                        <!-- Benefit-->
+                        <div class="benefit">
+                            <span class="fa fa-desktop"></span>
+                            <h3>Encryption APIs</h3>
+                            <p>Coming Soon</p>
+                        </div>
+
+
+                        <!-- Benefit-->
+                        <div class="benefit">
+                            <span class="fa fa-desktop"></span>
+                            <h3>Cache APIs</h3>
+                            <p>Coming Soon</p>
+                        </div>
+
+                        <!-- Benefit-->
+                        <div class="benefit">
+                            <span class="fa fa-code"></span>
+                            <h3>Open Source</h3>
+                            <p>Free (GPL License) for personal use, customizable, and hosted on <b>GitHub</b>. </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+<!-- BENEFITS BLOCK END -->
+
+
+            <!-- IMAGE API BLOCK BEGIN -->
+            <section id="imageApis" class="box" style="background-color: white">
+                <div class="center">
+                    <h2>Image API</h2>
+                    <div>
+                        <div style="float:left; width:50%; margin-right: 40px;">
+                            <p>TBD</p>
+                        </div>
+                        <div style="display:inline-block; width:40%">
+                            <table border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                                <thead>
+                                <tr>
+                                    <td style=""></td>
+                                    <td style="width:75px;text-align: center;">Open Source</td>
+                                    <td style="width:75px;text-align: center;">with<br/> ColdFusion Connector</td>
+                                    <td style="width:75px;text-align: center;">MASHAPE</td>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td colspan="4">
+                                        <b>Information</b>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-left: 10px;">Size</td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-left: 10px;">Metadata</td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+
+
+                                <tr>
+                                    <td colspan="4">
+                                        <b>Manipulation</b>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-left: 10px;">Border</td>
+                                    <td style="text-align: center">-</td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-left: 10px;">Resize</td>
+                                    <td style="text-align: center">-</td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-left: 10px;">Rotate</td>
+                                    <td style="text-align: center">-</td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-left: 10px;">Text</td>
+                                    <td style="text-align: center">-</td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+
+
+                                <tr>
+                                    <td colspan="4">
+                                        <b>Filters</b>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-left: 10px;">Blur</td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-left: 10px;">Box Blur</td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-left: 10px;">Bump</td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-left: 10px;">Despeckle</td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-left: 10px;">Gaussian</td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-left: 10px;">Glow</td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-left: 10px;">Grayscale</td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-left: 10px;">Lens Blur</td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-left: 10px;">Maximum</td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-left: 10px;">Median</td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-left: 10px;">Minimum</td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-left: 10px;">Motion Blur</td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-left: 10px;">Oil</td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="4"><br/></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td colspan="2" style="text-align: center">
+                                        <button style="padding: 10px;">Download Now</button>
+                                    </td>
+                                    <td style="text-align: center">
+                                        <button style="padding: 10px;">Try Now</button>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- IMAGE API BLOCK END -->
+
+
+
+            <!-- PDF API BLOCK BEGIN -->
+            <section id="imageApis" class="box">
+                <div class="center">
+                    <h2>PDF API</h2>
+                    <div>
+
+                        <div style="display:inline-block; width:40%">
+                            <table border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                                <thead>
+                                <tr>
+                                    <td style=""></td>
+                                    <td style="width:75px;text-align: center;">Open Source</td>
+                                    <td style="width:75px;text-align: center;">with<br/> ColdFusion Connector</td>
+                                    <td style="width:75px;text-align: center;">MASHAPE</td>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td colspan="4">
+                                            <b>Information</b>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding-left: 10px;">Get Properties</td>
+                                        <td style="text-align: center">-</td>
+                                        <td style="text-align: center">X</td>
+                                        <td style="text-align: center">X</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding-left: 10px;">Set Properties</td>
+                                        <td style="text-align: center">-</td>
+                                        <td style="text-align: center">X</td>
+                                        <td style="text-align: center">X</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding-left: 10px;">Extract Text</td>
+                                        <td style="text-align: center">-</td>
+                                        <td style="text-align: center">X</td>
+                                        <td style="text-align: center">X</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding-left: 10px;">Extract Images</td>
+                                        <td style="text-align: center">-</td>
+                                        <td style="text-align: center">X</td>
+                                        <td style="text-align: center">X</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding-left: 10px;">Thumbnail Generations</td>
+                                        <td style="text-align: center">-</td>
+                                        <td style="text-align: center">X</td>
+                                        <td style="text-align: center">X</td>
+                                    </tr>
+
+
+                                    <tr>
+                                        <td colspan="4">
+                                            <b>Conversion</b>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding-left: 10px;">HTML to PDF</td>
+                                        <td style="text-align: center">-</td>
+                                        <td style="text-align: center">X</td>
+                                        <td style="text-align: center">X</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding-left: 10px;">URL to PDF</td>
+                                        <td style="text-align: center">-</td>
+                                        <td style="text-align: center">X</td>
+                                        <td style="text-align: center">X</td>
+                                    </tr>
+
+
+                                    <tr>
+                                        <td colspan="4">
+                                            <b>Forms</b>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding-left: 10px;">Populate Form Fields</td>
+                                        <td style="text-align: center">-</td>
+                                        <td style="text-align: center">X</td>
+                                        <td style="text-align: center">X</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding-left: 10px;">Extract Forms Fields</td>
+                                        <td style="text-align: center">-</td>
+                                        <td style="text-align: center">X</td>
+                                        <td style="text-align: center">X</td>
+                                    </tr>
+
+
+
+                                    <tr>
+                                        <td colspan="4">
+                                            <b>Modification</b>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding-left: 10px;">DDX Controls</td>
+                                        <td style="text-align: center">-</td>
+                                        <td style="text-align: center">X</td>
+                                        <td style="text-align: center">X</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding-left: 10px;">Header & Footer</td>
+                                        <td style="text-align: center">-</td>
+                                        <td style="text-align: center">X</td>
+                                        <td style="text-align: center">X</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding-left: 10px;">Merge</td>
+                                        <td style="text-align: center">-</td>
+                                        <td style="text-align: center">X</td>
+                                        <td style="text-align: center">X</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding-left: 10px;">Optimize</td>
+                                        <td style="text-align: center">-</td>
+                                        <td style="text-align: center">X</td>
+                                        <td style="text-align: center">X</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding-left: 10px;">Pages</td>
+                                        <td style="text-align: center">-</td>
+                                        <td style="text-align: center">X</td>
+                                        <td style="text-align: center">X</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding-left: 10px;">Transformer</td>
+                                        <td style="text-align: center">-</td>
+                                        <td style="text-align: center">X</td>
+                                        <td style="text-align: center">X</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding-left: 10px;">Watermark</td>
+                                        <td style="text-align: center">-</td>
+                                        <td style="text-align: center">X</td>
+                                        <td style="text-align: center">X</td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div style="float:right; width:50%; margin-left: 40px;">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pulvinar ut neque at maximus. Cras convallis tempor eros non mattis. Vestibulum libero magna, placerat sed tempor ut, semper sit amet dolor. Nam et urna tellus. Vivamus ornare purus interdum enim auctor varius. Nam elementum, nulla ut luctus egestas, sapien turpis tincidunt neque, laoreet dictum nunc purus vitae erat.</p>
+                            <p>Ut urna tortor, dictum ut leo eu, tincidunt pulvinar orci. Integer tincidunt ullamcorper dui, sit amet maximus augue fringilla vitae. Fusce faucibus neque vitae luctus auctor. Ut nec turpis quis purus laoreet porta sed in purus.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- IMAGE API BLOCK END -->
+
+
+
+            <!-- Encryption API BLOCK BEGIN -->
+            <section id="imageApis" class="box" style="background-color: white">
+                <div class="center">
+                    <h2>Encryption API</h2>
+                    <div>
+                        <div style="float:left; width:50%; margin-right: 40px;">
+                            <p>Coming Soon - Large collection of hashing, encryption, and decryption algorithms, including a number of FIPS-140 compliant strong cryptography algorithms.</p>
+                        </div>
+                        <div style="display:inline-block; width:40%">
+                            <table border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                                <thead>
+                                <tr>
+                                    <td style=""></td>
+                                    <td style="width:75px;text-align: center;">Open Source</td>
+                                    <td style="width:75px;text-align: center;">with<br/> ColdFusion Connector</td>
+                                    <td style="width:75px;text-align: center;">MASHAPE</td>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td colspan="4">
+                                        <b>Keys</b>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-left: 10px;">Generate Key</td>
+                                    <td style="text-align: center">-</td>
+                                    <td style="text-align: center">-</td>
+                                    <td style="text-align: center">-</td>
+                                </tr>
+
+
+                                <tr>
+                                    <td colspan="4">
+                                        <b>Hash</b>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-left: 10px;">TBD</td>
+                                    <td style="text-align: center">-</td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+
+
+                                <tr>
+                                    <td colspan="4">
+                                        <b>Encryption / Decryption</b>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-left: 10px;">TBD</td>
+                                    <td style="text-align: center">-</td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- IMAGE API BLOCK END -->
+
+
+
+<!-- VIDEO BLOCK BEGIN -->
+<!--
+            <section id="video" class="box">
+                <div class="center">
+                    <div class="video_info">
+                        <h2>Motivational video</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dictum auctor interdum. Aenean egestas vehicula purus in euismod. Quisque gravida commodo velit, eget porta leo sagittis vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dictum auctor interdum. Aenean egestas vehicula purus in euismod. Quisque gravida commodo velit, eget porta leo sagittis vel.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                    </div>
+                    <div class="video_box">
+
+                    </div>
+                </div>
+            </section>
+-->
+<!-- VIDEO BLOCK END -->
+<!-- SCREENSHOTS BLOCK BEGIN
+
+            <section id="screenshots" class="box">
+                <div class="center">
+                    <h2>Screenshots</h2>
+                    <div class="screenshots_box">
+                    
+                    	<# Fancybox slider #>
+                        <div id="screenshots_slider">
+                            <div class="slide">
+                                <a href="./images/screens/files.png" data-fancybox-gallery="group" class="gallery_pic"><img src="./images/screens/files_sm.png" class="image_shadow" width="130" height="130" alt="" /></a>
+                            </div>
+                            <div class="slide">
+                                <a href="./images/screens/photos.png" data-fancybox-gallery="group" class="gallery_pic"><img src="./images/screens/photos_sm.png" class="image_shadow" width="130" height="130" alt="" /></a>
+                            </div>
+                            <div class="slide">
+                                <a href="./images/screens/music.png" data-fancybox-gallery="group" class="gallery_pic"><img src="./images/screens/music_sm.png" class="image_shadow" width="130" height="130" alt="" /></a>
+                            </div>
+                            <div class="slide">
+                                <a href="./images/screens/movies.png" data-fancybox-gallery="group" class="gallery_pic"><img src="./images/screens/movies_sm.png" class="image_shadow" width="130" height="130" alt="" /></a>
+                            </div>
+                            <div class="slide">
+                                <a href="./images/screens/usermanager.png" data-fancybox-gallery="group" class="gallery_pic"><img src="./images/screens/usermanager_sm.png" class="image_shadow" width="130" height="130" alt="" /></a>
+                            </div>
+                            <div class="slide">
+                                <a href="./images/screens/01.jpg" data-fancybox-gallery="group" class="gallery_pic"><img src="./images/screens/01_s.jpg" class="image_shadow" width="130" height="130" alt="" /></a>
+                            </div>
+                            <div class="slide">
+                                <a href="./images/screens/01.jpg" data-fancybox-gallery="group" class="gallery_pic"><img src="./images/screens/01_s.jpg" class="image_shadow" width="130" height="130" alt="" /></a>
+                            </div>
+                            <div class="slide">
+                                <a href="./images/screens/01.jpg" data-fancybox-gallery="group" class="gallery_pic"><img src="./images/screens/01_s.jpg" class="image_shadow" width="130" height="130" alt="" /></a>
+                            </div>
+                            <div class="slide">
+                                <a href="./images/screens/01.jpg" data-fancybox-gallery="group" class="gallery_pic"><img src="./images/screens/01_s.jpg" class="image_shadow" width="130" height="130" alt="" /></a>
+                            </div>
+                            <div class="slide">
+                                <a href="./images/screens/01.jpg" data-fancybox-gallery="group" class="gallery_pic"><img src="./images/screens/01_s.jpg" class="image_shadow" width="130" height="130" alt="" /></a>
+                            </div>
+                        </div>
+                        <a href="#" id="prev2" class="fa fa-caret-left"></a>
+                        <a href="#" id="next2" class="fa fa-caret-right"></a>
+                    </div>
+                </div>
+            </section>
+        -->
+<!-- SCREENSHOTS BLOCK END -->
+
+
+
+ <!-- HELP BLOCK BEGIN -->
+ <section id="help" class="box" >
+     <div class="center">
+         <h2>Architecture</h2>
+         <div class="benefits_box">
+            TBD
+             <br/><br/><br/>
+         </div>
+     </div>
+ </section>
+ <!-- HELP BLOCK END -->
+
+
+
+ <!-- HELP BLOCK BEGIN -->
+ <section id="help" class="box" style="background-color: #ffffff" >
+     <div class="center">
+         <h2>How To Help</h2>
+         <div class="benefits_box">
+
+             <!-- Benefit-->
+             <div class="benefit">
+                 <span class="fa fa-code"></span>
+                 <h3>Github</h3>
+                 <p></p>
+             </div>
+
+             <!-- Benefit-->
+             <div class="benefit">
+                 <span class="fa fa-code"></span>
+                 <h3>TBD</h3>
+                 <p></p>
+             </div>
+
+             <!-- Benefit-->
+             <div class="benefit">
+                 <span class="fa fa-code"></span>
+                 <h3>TBD</h3>
+                 <p></p>
+             </div>
+         </div>
+     </div>
+ </section>
+ <!-- HELP BLOCK END -->
+
+
+
+<!-- SUBSCRIBE BLOCK BEGIN -->            
+<!--
+            <section id="subscribe" class="box">
+                <div class="center">
+                    <h2>Subscribe</h2>
+                    <div class="subscribe_box">
+                    	<form action="js/subscribe.php" method="post" id="subscribe_form">
+                            <div>
+                                <input type="text" placeholder="Your email address" id="subscribe_email" data-validate="validate(email)" />
+                                <input type="submit" value="Subscribe" class="btn_grey" id="subscribe_submit" />
+                            </div> 
+                        </form>
+                        <h3>Join our newsletter subscription</h3>
+                        <p>Join our newsletter subscription, be always informed</p>
+                    </div>
+                    <div class="success_message" id="subscribe_success"></div>
+                	<div class="error_message" id="subscribe_error"></div> 
+                </div>
+            </section>
+-->
+<!-- SUBSCRIBE BLOCK END -->
+<!-- CONTACT US BLOCK BEGIN -->
+<!--
+            <section id="contact_us" class="box">
+                <div class="center">
+                    <h2>Contact us</h2>
+                    <div class="contact_info" itemscope itemtype="http://schema.org/Organization">
+                        <ul>
+                            <li itemprop="email"><span class="fa fa-envelope"></span> Your@email.com</li>
+                            <li itemprop="telephone"><span class="fa fa-phone"></span> (234) 789-4356</li>
+                            <li><span class="fa fa-skype"></span> Your_skype</li>
+                        </ul>
+                    </div>
+                    
+                                      	
+                    <div class="map" id="map-canvas">
+
+                    </div>
+                </div>
+            </section>
+-->
+<!-- CONTACT US BLOCK END -->
+
+            <div class="footerHeight"></div>
+        </div><!--id="wrap"--> 
+     
+
+<!-- FOOTER BLOCK BEGIN -->
+        
+        <footer id="footer">
+            <div class="center">
+            	<!-- Social icons -->
+                <div class="socials">
+                    <ul>
+                        <!--
+                    	<li><a href="https://plus.google.com/" target="_blank" title="Google+" class="fa fa-google-plus"></a></li>
+                        <li><a href="https://www.facebook.com/" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
+                        -->
+                        <li><a href="https://twitter.com/familydam" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+                    </ul>
+                </div>
+                <div >
+                    <p>This project is maintained by <a href="https://github.com/mnimer">mnimer</a></p>
+                </div>
+            </div>
+        </footer>
+        
+<!-- FOOTER BLOCK BEGIN --> 
+      
+    </body>
+</html>
