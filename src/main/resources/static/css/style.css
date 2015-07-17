@@ -535,6 +535,19 @@ input[type=submit] {
 	position: relative;
 }
 
+.slide .primary{
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 300;
+    margin-top:50px;
+}
+
+.slide .secondary{
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 200;
+}
+
 #prev,
 #prev2,
 #next,
